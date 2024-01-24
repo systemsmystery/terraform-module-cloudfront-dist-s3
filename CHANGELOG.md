@@ -1,3 +1,10 @@
+## [1.1.0](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-cloudfront-dist-s3/compare/v1.0.0...v1.1.0) (2024-01-24)
+
+
+### Features
+
+* added cloudfront_name variable which overrides the standard name ([95e5eac](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-cloudfront-dist-s3/commit/95e5eacee4c0fec9f196eab42937aaaf2b918ff6))
+
 ## 1.0.0 (2024-01-18)
 
 
