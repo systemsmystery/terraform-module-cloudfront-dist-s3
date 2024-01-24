@@ -44,6 +44,7 @@ This module will create a Cloudfront Distruibution back by S3. The cloudfront wi
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | Bucket name | `string` | n/a | yes |
+| <a name="input_cloudfront_name"></a> [cloudfront\_name](#input\_cloudfront\_name) | Cloudfront name, this overrides the default name (cdn.{{domain\_name}} | `string` | `""` | no |
 | <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | The domain name to use for the Route53 zone | `string` | n/a | yes |
 | <a name="input_logging_bucket_name"></a> [logging\_bucket\_name](#input\_logging\_bucket\_name) | Bucket name for logging | `string` | n/a | yes |
 | <a name="input_zone_name"></a> [zone\_name](#input\_zone\_name) | The name of the Route53 zone (if different from domain\_name | `string` | `""` | no |

@@ -18,3 +18,9 @@ variable "logging_bucket_name" {
   type        = string
   description = "Bucket name for logging"
 }
+
+variable "cloudfront_name" {
+  type        = string
+  description = "Cloudfront name, this overrides the default name (cdn.{{domain_name}}"
+  default     = ""
+}

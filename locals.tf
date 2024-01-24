@@ -1,3 +1,3 @@
 locals {
-  cdn_domain = "cdn.${var.domain_name}"
+  cdn_domain = coalesce(var.cloudfront_name, "cdn.${var.domain_name}")
 }
