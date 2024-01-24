@@ -1,3 +1,10 @@
+## [1.1.1](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-cloudfront-dist-s3/compare/v1.1.0...v1.1.1) (2024-01-24)
+
+
+### Bug Fixes
+
+* changed certificate_domain_name to use local ([2d799e3](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-cloudfront-dist-s3/commit/2d799e396147a6c4166a18a28799ce9e73b7d4a5))
+
 ## [1.1.0](https://gitlab.com/systemsmystery/terraform-modules/terraform-module-cloudfront-dist-s3/compare/v1.0.0...v1.1.0) (2024-01-24)
 
 
